@@ -1,0 +1,40 @@
+.header {
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 60px;
+    width: 100vw;
+    padding: 8px 0px;
+    background-color: #141e27;
+    .link {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: white;
+        padding: 8px 25px;
+        border-radius: 10px;
+        transition: 0.2s;
+        cursor: pointer;
+        &:hover {
+            background-color: #1c2935;
+        }
+        &.active {
+            background-color: dodgerblue;
+        }
+    }
+    .logoutBtn {
+        position: absolute;
+        right: 20px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #f77;
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: 0.2s;
+        cursor: pointer;
+        &:hover {
+            background-color: #1c2935;
+        }
+    }
+}
