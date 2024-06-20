@@ -76,6 +76,7 @@ function Login() {
         <div className={style.content}>
           <h2>Đăng nhập</h2>
           <div className={style.input}>
+            username: admin
             <Input
               placeholder="Username"
               value={username}
@@ -86,6 +87,7 @@ function Login() {
             />
           </div>
           <div className={style.input}>
+            password: 123456
             <Input.Password
               placeholder="Password"
               value={password}
